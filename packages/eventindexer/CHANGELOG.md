@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.14.0](https://github.com/NguyenTuanCanh/taiko-mono/compare/eventindexer-v0.13.0...eventindexer-v0.14.0) (2023-12-07)
+
+
+### Features
+
+* **eventindexer:** add get events by address/name param for community ([#14025](https://github.com/NguyenTuanCanh/taiko-mono/issues/14025)) ([146f8d5](https://github.com/NguyenTuanCanh/taiko-mono/commit/146f8d52100c3aa7412549e0703c4fc363a6ec29))
+* **eventindexer:** API documentation, swagger, github pages ([#14948](https://github.com/NguyenTuanCanh/taiko-mono/issues/14948)) ([5455267](https://github.com/NguyenTuanCanh/taiko-mono/commit/54552674fe8a6b0b4321afe1ef4d90d00d62f0e8))
+* **eventindexer:** Eventindexer and relayer a5 updates ([#14597](https://github.com/NguyenTuanCanh/taiko-mono/issues/14597)) ([87c9d53](https://github.com/NguyenTuanCanh/taiko-mono/commit/87c9d53fa9c6911aada78a1746839d14e4401916))
+* **eventindexer:** galaxe api, 2 indexing, http only mode, event query optimizations ([#14122](https://github.com/NguyenTuanCanh/taiko-mono/issues/14122)) ([9c6d918](https://github.com/NguyenTuanCanh/taiko-mono/commit/9c6d918c8c7c474da88912fafa59e2a2f054f3b7))
+* **eventindexer:** Index nfts ([#14418](https://github.com/NguyenTuanCanh/taiko-mono/issues/14418)) ([364b09b](https://github.com/NguyenTuanCanh/taiko-mono/commit/364b09b52344dff8782be7333eac4fdb3e5d1597))
+* **eventindexer:** speed up sync ([#14258](https://github.com/NguyenTuanCanh/taiko-mono/issues/14258)) ([d337174](https://github.com/NguyenTuanCanh/taiko-mono/commit/d337174742bfd8d9c220fda0a0e1c9626fd571c2))
+* **eventindexer:** store swap sender correctly, plus check min amt ([#14128](https://github.com/NguyenTuanCanh/taiko-mono/issues/14128)) ([67ba5e4](https://github.com/NguyenTuanCanh/taiko-mono/commit/67ba5e44eca82c301dcd2a8d3c0909ac080a804c))
+* **eventindexer:** support multiple swap pairs ([#14130](https://github.com/NguyenTuanCanh/taiko-mono/issues/14130)) ([2f4a0be](https://github.com/NguyenTuanCanh/taiko-mono/commit/2f4a0beb1a431c5c7ff40c3c4b7fcecb094d2e52))
+* **eventindexer:** Timeseries data indexing + refactor to taiko-client/relayer CLI approach and architecture ([#14663](https://github.com/NguyenTuanCanh/taiko-mono/issues/14663)) ([7e760b6](https://github.com/NguyenTuanCanh/taiko-mono/commit/7e760b63022162ccfc0a11a861900d68958e650a))
+* **eventindexer:** Track proposer/prover rewards, + generate tasks for total/per day ([#14690](https://github.com/NguyenTuanCanh/taiko-mono/issues/14690)) ([cc477b9](https://github.com/NguyenTuanCanh/taiko-mono/commit/cc477b97c00e8339a87c4d4502a0ee8ad811c10f))
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/NguyenTuanCanh/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/NguyenTuanCanh/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+
+
+### Bug Fixes
+
+* **eventindexer:** missing swap route ([#14126](https://github.com/NguyenTuanCanh/taiko-mono/issues/14126)) ([dc7edce](https://github.com/NguyenTuanCanh/taiko-mono/commit/dc7edce0163e252600e15e745728d7f476efec4c))
+* **eventindexer:** route fix ([#14127](https://github.com/NguyenTuanCanh/taiko-mono/issues/14127)) ([03eb96f](https://github.com/NguyenTuanCanh/taiko-mono/commit/03eb96fad45365ace3b9662c27bd6bc4c972a676))
+* **eventindexer:** update ABI so avgProofTime can be calculated ([#14785](https://github.com/NguyenTuanCanh/taiko-mono/issues/14785)) ([cc93140](https://github.com/NguyenTuanCanh/taiko-mono/commit/cc931402d368cfcfeff5b3f628368b38c53cdb33))
+* **eventindexer:** update config tests ([#14912](https://github.com/NguyenTuanCanh/taiko-mono/issues/14912)) ([beab49b](https://github.com/NguyenTuanCanh/taiko-mono/commit/beab49bd8f085b1e285fb3a16e9b493f3c5f5932))
+* **eventindexer:** upodate indexnfts flag to bool ([#14905](https://github.com/NguyenTuanCanh/taiko-mono/issues/14905)) ([a4a982e](https://github.com/NguyenTuanCanh/taiko-mono/commit/a4a982ec15a11f207c5b14c3a0b5fb2caffd2c1b))
+* **relayer:** use erc20vault not token vault for required end var ([#14519](https://github.com/NguyenTuanCanh/taiko-mono/issues/14519)) ([a49c65c](https://github.com/NguyenTuanCanh/taiko-mono/commit/a49c65c6ba9535a761f4ef2abd7be2b2213a71c2))
+* **repo:** fix some typos ([#15338](https://github.com/NguyenTuanCanh/taiko-mono/issues/15338)) ([2d2283c](https://github.com/NguyenTuanCanh/taiko-mono/commit/2d2283ce968972fc3ee0c12f406dcc7135dc01a4))
+
 ## [0.13.0](https://github.com/taikoxyz/taiko-mono/compare/eventindexer-v0.12.0...eventindexer-v0.13.0) (2023-10-18)
 
 

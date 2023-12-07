@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.13.0](https://github.com/NguyenTuanCanh/taiko-mono/compare/relayer-v0.12.0...relayer-v0.13.0) (2023-12-07)
+
+
+### Features
+
+* **eventindexer:** API documentation, swagger, github pages ([#14948](https://github.com/NguyenTuanCanh/taiko-mono/issues/14948)) ([5455267](https://github.com/NguyenTuanCanh/taiko-mono/commit/54552674fe8a6b0b4321afe1ef4d90d00d62f0e8))
+* **eventindexer:** Eventindexer and relayer a5 updates ([#14597](https://github.com/NguyenTuanCanh/taiko-mono/issues/14597)) ([87c9d53](https://github.com/NguyenTuanCanh/taiko-mono/commit/87c9d53fa9c6911aada78a1746839d14e4401916))
+* **eventindexer:** Index nfts ([#14418](https://github.com/NguyenTuanCanh/taiko-mono/issues/14418)) ([364b09b](https://github.com/NguyenTuanCanh/taiko-mono/commit/364b09b52344dff8782be7333eac4fdb3e5d1597))
+* **eventindexer:** Track proposer/prover rewards, + generate tasks for total/per day ([#14690](https://github.com/NguyenTuanCanh/taiko-mono/issues/14690)) ([cc477b9](https://github.com/NguyenTuanCanh/taiko-mono/commit/cc477b97c00e8339a87c4d4502a0ee8ad811c10f))
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/NguyenTuanCanh/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/NguyenTuanCanh/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+* **relayer:** fix cost calculation for isProfitable ([#14767](https://github.com/NguyenTuanCanh/taiko-mono/issues/14767)) ([8e1c897](https://github.com/NguyenTuanCanh/taiko-mono/commit/8e1c89748fcb42e354d2219ceac2be1c668bcf31))
+* **relayer:** queue processor Prefetch ([#14765](https://github.com/NguyenTuanCanh/taiko-mono/issues/14765)) ([a37797a](https://github.com/NguyenTuanCanh/taiko-mono/commit/a37797a6115fda37e933b0742881649a411a29ef))
+* **relayer:** Relayer indexer/processor separation and refactor, messaging queue ([#14605](https://github.com/NguyenTuanCanh/taiko-mono/issues/14605)) ([15b0e50](https://github.com/NguyenTuanCanh/taiko-mono/commit/15b0e50c130687cac32eef97ba5f396f79ad933f))
+* **relayer:** support L2-L2 bridging ([#14711](https://github.com/NguyenTuanCanh/taiko-mono/issues/14711)) ([1410217](https://github.com/NguyenTuanCanh/taiko-mono/commit/1410217363077ea6179080fca4a7aeadc6c7d149))
+* **relayer:** use gas tip cap if available ([#14024](https://github.com/NguyenTuanCanh/taiko-mono/issues/14024)) ([773331b](https://github.com/NguyenTuanCanh/taiko-mono/commit/773331bebb509ef66f3a9aab51a8927432e11dc3))
+
+
+### Bug Fixes
+
+* **eventindexer:** update config tests ([#14912](https://github.com/NguyenTuanCanh/taiko-mono/issues/14912)) ([beab49b](https://github.com/NguyenTuanCanh/taiko-mono/commit/beab49bd8f085b1e285fb3a16e9b493f3c5f5932))
+* **relayer:** cancel waiting for receipts ([#14019](https://github.com/NguyenTuanCanh/taiko-mono/issues/14019)) ([c9fcffe](https://github.com/NguyenTuanCanh/taiko-mono/commit/c9fcffe1d1227219b244b97555e96a49a865f868))
+* **relayer:** ERC1155 bridging, amount =&gt; amounts ([#14959](https://github.com/NguyenTuanCanh/taiko-mono/issues/14959)) ([d42c59d](https://github.com/NguyenTuanCanh/taiko-mono/commit/d42c59d5150c9c41941458e25fac75121d73da76))
+* **relayer:** Eth bridge ([#14609](https://github.com/NguyenTuanCanh/taiko-mono/issues/14609)) ([f5207ae](https://github.com/NguyenTuanCanh/taiko-mono/commit/f5207ae19c48d9aaa83dab2739cd05d9c2985112))
+* **relayer:** fix scanning blocks twice ([#14047](https://github.com/NguyenTuanCanh/taiko-mono/issues/14047)) ([9ee6723](https://github.com/NguyenTuanCanh/taiko-mono/commit/9ee67238eccc5218346f7cbcf936a76919bf7ae4))
+* **relayer:** Relayer cors flag was not being used ([#14661](https://github.com/NguyenTuanCanh/taiko-mono/issues/14661)) ([19f35f7](https://github.com/NguyenTuanCanh/taiko-mono/commit/19f35f74e8a955c2776defe6e5cac48a9b6456a3))
+* **relayer:** Relayer paid gas ([#14748](https://github.com/NguyenTuanCanh/taiko-mono/issues/14748)) ([b4cb3ff](https://github.com/NguyenTuanCanh/taiko-mono/commit/b4cb3ffe9d4bad67682a8217621b8b67cb263f65))
+* **relayer:** Relayer reorg ([#14033](https://github.com/NguyenTuanCanh/taiko-mono/issues/14033)) ([4794f45](https://github.com/NguyenTuanCanh/taiko-mono/commit/4794f45006aff0287bc6cf4630910a1ec3a01fbd))
+* **relayer:** use erc20vault not token vault for required end var ([#14519](https://github.com/NguyenTuanCanh/taiko-mono/issues/14519)) ([a49c65c](https://github.com/NguyenTuanCanh/taiko-mono/commit/a49c65c6ba9535a761f4ef2abd7be2b2213a71c2))
+* **repo:** fix some typos ([#15338](https://github.com/NguyenTuanCanh/taiko-mono/issues/15338)) ([2d2283c](https://github.com/NguyenTuanCanh/taiko-mono/commit/2d2283ce968972fc3ee0c12f406dcc7135dc01a4))
+
 ## [0.12.0](https://github.com/taikoxyz/taiko-mono/compare/relayer-v0.11.0...relayer-v0.12.0) (2023-10-18)
 
 

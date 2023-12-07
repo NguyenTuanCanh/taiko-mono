@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.16.0](https://github.com/NguyenTuanCanh/taiko-mono/compare/protocol-v0.15.3...protocol-v0.16.0) (2023-12-07)
+
+
+### Features
+
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/NguyenTuanCanh/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/NguyenTuanCanh/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+* **protocol:** Gas limit behavior changes ([#14339](https://github.com/NguyenTuanCanh/taiko-mono/issues/14339)) ([06710eb](https://github.com/NguyenTuanCanh/taiko-mono/commit/06710eb41132f7b920d80053ed8b906d90c18bb3))
+* **protocol:** LibFixedPointMath contract library license different MAX_EXP_INPUT values ([#14344](https://github.com/NguyenTuanCanh/taiko-mono/issues/14344)) ([c6e391d](https://github.com/NguyenTuanCanh/taiko-mono/commit/c6e391d37c91623bf2673d86042c17892f5af54c))
+* **protocol:** make L2 1559 config upgradable ([#14715](https://github.com/NguyenTuanCanh/taiko-mono/issues/14715)) ([ee26881](https://github.com/NguyenTuanCanh/taiko-mono/commit/ee2688156733d49cbf43c5178211db95a7079b26))
+* **protocol:** Modify LibProposing to accept oracle as assigned prover ([#14695](https://github.com/NguyenTuanCanh/taiko-mono/issues/14695)) ([52a50b7](https://github.com/NguyenTuanCanh/taiko-mono/commit/52a50b7fe5f771a249d6e39b66ebfb77317aa21e))
+* **protocol:** remove an unused flag in `DeployOnL1` script ([#14589](https://github.com/NguyenTuanCanh/taiko-mono/issues/14589)) ([a42c17a](https://github.com/NguyenTuanCanh/taiko-mono/commit/a42c17ad4e4a3b24d7077b124bf685a04d72224c))
+* **protocol:** update `PlonkVerifier` based on current public input ([#14647](https://github.com/NguyenTuanCanh/taiko-mono/issues/14647)) ([9808185](https://github.com/NguyenTuanCanh/taiko-mono/commit/9808185af79760f7a3e115ed9ed818f77ed930b2))
+* **protocol:** update PlonkVerifier for new L3 circuits ([#14023](https://github.com/NguyenTuanCanh/taiko-mono/issues/14023)) ([9d7bc39](https://github.com/NguyenTuanCanh/taiko-mono/commit/9d7bc39c282c6ceb0e62146aa6271d5ceaee7633))
+* **protocol:** validate `instance` the old way ([#14639](https://github.com/NguyenTuanCanh/taiko-mono/issues/14639)) ([8e8601b](https://github.com/NguyenTuanCanh/taiko-mono/commit/8e8601b44227f77444f4cb86406701cf00054ca1))
+* **website:** Docs Taiko L2 EIP-1559 high level overview ([#14187](https://github.com/NguyenTuanCanh/taiko-mono/issues/14187)) ([ac52f57](https://github.com/NguyenTuanCanh/taiko-mono/commit/ac52f575b6ac5a173bc6e96679f0614fcd61aa27))
+
+
+### Bug Fixes
+
+* fix typos in tests and comments ([#15028](https://github.com/NguyenTuanCanh/taiko-mono/issues/15028)) ([54bf597](https://github.com/NguyenTuanCanh/taiko-mono/commit/54bf597c89a7f22161eeeffd13c20fe0acb4e2d7))
+* **protocol:** block reward must be minted ([#14595](https://github.com/NguyenTuanCanh/taiko-mono/issues/14595)) ([e92b1da](https://github.com/NguyenTuanCanh/taiko-mono/commit/e92b1da2ced73c2b28a825fce916acededab0a39))
+* **protocol:** change transition ID from uint16 to uint32 ([#14620](https://github.com/NguyenTuanCanh/taiko-mono/issues/14620)) ([c8969b6](https://github.com/NguyenTuanCanh/taiko-mono/commit/c8969b64bbaacf9ec6d239608509424fdc02ee97))
+* **protocol:** fix a bug reported by Quillaudit ([#14938](https://github.com/NguyenTuanCanh/taiko-mono/issues/14938)) ([99b200b](https://github.com/NguyenTuanCanh/taiko-mono/commit/99b200bad93bcee0d0c9441d0393b2aa48636017))
+* **protocol:** Fix genesis tests ([#14813](https://github.com/NguyenTuanCanh/taiko-mono/issues/14813)) ([a38b1d4](https://github.com/NguyenTuanCanh/taiko-mono/commit/a38b1d4a87225b77f86989dc69cbbcebd7f1a7f0))
+* **protocol:** Fix ProverPool bug, clear proverId when exit ([#14411](https://github.com/NguyenTuanCanh/taiko-mono/issues/14411)) ([8dd7481](https://github.com/NguyenTuanCanh/taiko-mono/commit/8dd7481887a89309154c1fe2be424e41e01d9a0c))
+* **protocol:** Remove duplicated events during mint and burn ([#14686](https://github.com/NguyenTuanCanh/taiko-mono/issues/14686)) ([3ff0018](https://github.com/NguyenTuanCanh/taiko-mono/commit/3ff0018e9a36c0aec6ad934a4607c6acbcb4d50b))
+* **protocol:** remove proof from getInstance calculation ([#14623](https://github.com/NguyenTuanCanh/taiko-mono/issues/14623)) ([2eedc33](https://github.com/NguyenTuanCanh/taiko-mono/commit/2eedc33c213cb5d0abf9daa8bc9bd21b730ae6af))
+* **protocol:** revert impl deployment V2 ([#14621](https://github.com/NguyenTuanCanh/taiko-mono/issues/14621)) ([7e59e0b](https://github.com/NguyenTuanCanh/taiko-mono/commit/7e59e0b0077e4d81bcd5333bc6f0900e0761d6ea))
+* **repo:** fix some typos ([#15021](https://github.com/NguyenTuanCanh/taiko-mono/issues/15021)) ([5d5b72d](https://github.com/NguyenTuanCanh/taiko-mono/commit/5d5b72d7d53dc93abcc73f8d525a5e7dbfaf903d))
+* **repo:** fix some typos ([#15338](https://github.com/NguyenTuanCanh/taiko-mono/issues/15338)) ([2d2283c](https://github.com/NguyenTuanCanh/taiko-mono/commit/2d2283ce968972fc3ee0c12f406dcc7135dc01a4))
+* **repo:** fix typos ([#14165](https://github.com/NguyenTuanCanh/taiko-mono/issues/14165)) ([020972a](https://github.com/NguyenTuanCanh/taiko-mono/commit/020972acd0e71877b5f0d76e6a5319f5a814038e))
+
 ## [0.15.3](https://github.com/taikoxyz/taiko-mono/compare/protocol-v0.15.2...protocol-v0.15.3) (2023-12-05)
 
 
